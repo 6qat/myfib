@@ -1,0 +1,37 @@
+{
+  "name": "myfib",
+  "version": "0.1.0",
+  "description": "Calculates a Fibonacci number as fast as possible.",
+  "main": "index.js",
+  "bin": {
+    "myfib": "./bin/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test && node benchmark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/6qat/myfib.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "fast"
+  ],
+  "author": "Guilherme Ceschiatti B. Moreira <ceschiatti@gmail.com> (http://guilherme.tel/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/6qat/myfib/issues"
+  },
+  "homepage": "https://github.com/6qat/myfib",
+  "engines": {
+    "node": ">=0.8.0 <0.10.x"
+  },
+  "optionalDependencies": {}
+}
