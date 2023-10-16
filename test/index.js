@@ -1,5 +1,5 @@
-var assert = require('assert');
-var myfib = require('../');
+let assert = require('assert');
+let myfib = require('../');
 
 assert.equal(myfib(0), 0);
 assert.equal(myfib(1), 1);
